@@ -109,6 +109,7 @@ const multipleLineString = `just multiple \n\line\n\string`
 console.log(multipleLineString)
 */
 //******************************** 1-15 Taking Decision if else statement ********************************
+/*
 const sarahAge = 12
 const isOldEnough = sarahAge >=18
 
@@ -118,3 +119,6 @@ if (isOldEnough) {
 else{
     console.log(`Sarah cannot start driving license , because sarah is ${sarahAge} .`)
 }
+*/
+
+//******************************** 1-18 Type conversion and coersion ********************************
