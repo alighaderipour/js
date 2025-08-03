@@ -122,3 +122,23 @@ else{
 */
 
 //******************************** 1-18 Type conversion and coersion ********************************
+//type conversion is when we manually convert from one type to another.
+//type coersion is when js autimatically converts types behind the scene for us.
+
+let inputYear = '1991'
+console.log(inputYear + 18)
+// we get the result 199118 which is even a string
+// we need a string
+
+inputYear = Number(inputYear)
+console.log(inputYear + 18)
+
+
+console.log(Number('ali')) //we get NaN (not a number) NaN is (not a  number)
+//NAN is a aslo a number
+console.log(typeof NaN)
+
+console.log(String(123), typeof String(123)) 
+
+// javascript has 3 convert types : String, Number and Boolean
+// we cannot conver to null or undefined 
