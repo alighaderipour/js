@@ -123,7 +123,8 @@ else{
 
 //******************************** 1-18 Type conversion and coersion ********************************
 //type conversion is when we manually convert from one type to another.
-//type coersion is when js autimatically converts types behind the scene for us.
+//type coersion is when js autimatically converts types behind the scene for us, that's necessary in
+//some situation but it happens implicitly, completely hidden from us
 
 let inputYear = '1991'
 console.log(inputYear + 18)
