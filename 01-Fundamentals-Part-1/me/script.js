@@ -122,6 +122,7 @@ else{
 */
 
 //******************************** 1-18 Type conversion and coersion ********************************
+/*
 //type conversion is when we manually convert from one type to another.
 //type coersion is when js autimatically converts types behind the scene for us, that's necessary in
 //some situation but it happens implicitly, completely hidden from us
@@ -143,3 +144,19 @@ console.log(String(123), typeof String(123))
 
 // javascript has 3 convert types : String, Number and Boolean
 // we cannot conver to null or undefined 
+// we cover convert to boolean in truthy and falsy values
+// we rarely do manually converting, most of the time js handle it with type coercion
+//basically type coercion happend when an operator is dealing with two values that have different types
+let myAge = 34
+console.log(`I'am ${myAge} years old`);  //myAge is number so it converts to String
+
+
+// plus does not type coercion but minus does
+console.log(23 - '1' - 4)
+console.log(23 + '1' + 4 )
+ 
+*/
+
+//******************************** 1-19 Truthy and Falsy Values ********************************
+
+//falsy values are values that are not exactly false
