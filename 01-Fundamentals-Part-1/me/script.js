@@ -160,3 +160,36 @@ console.log(23 + '1' + 4 )
 //******************************** 1-19 Truthy and Falsy Values ********************************
 
 //falsy values are values that are not exactly false
+
+
+//******************************** 1-20 Equality Operators  == vs === ********************************
+
+/*
+const  answer = prompt('what is your favorite number? ')
+if (answer != 23) console.log('correct')
+    else console.log('not correct')
+*/
+
+
+//******************************** 1-21 Boolean Logic ********************************
+
+//******************************** 1-22 Logical Operator ********************************
+
+//******************************** 1-25 The Swtich Statement ********************************
+
+
+//******************************** 1-25 The Swtich Statement ********************************
+const day = 'monday'
+
+switch(day){
+    case 'monday':
+        console.log('monday')
+        console.log("first day of week");
+    case 'tuesday':
+        console.log('write some code')
+    case 'wednesday':
+        console.log('this one will executes too')
+        break;
+    default:
+        console.log("where is break");
+}
